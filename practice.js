@@ -27,5 +27,9 @@ Friends[1] = 'Rabbi'
 // (c)
 for (var i=0; i<4; i++) {
     var friend = Friends[i];
-console.log(friend)
+// console.log(friend)
+}
+for(var i=5; i<Friends.length; i++){
+    var friend = Friends[i];
+    console.log(friend);
 }
